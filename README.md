@@ -1,11 +1,11 @@
-About trame-rca
-===============
+About trame-rca-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trame-rca-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/trame-rca/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trame-rca-feedstock/blob/main/LICENSE.txt)
 
 Summary: Remote Controlled Area widget for trame
 
