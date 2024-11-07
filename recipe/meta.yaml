@@ -1,5 +1,5 @@
 {% set name = "trame-rca" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trame-rca-{{ version }}.tar.gz
-  sha256: e6747a291d99d7a48e7c494d4474b365fb0af44423ac675dd38c8def7e345d25
+  sha256: 9cbb28b375095cdd5f1b47cadfa5875e5114212a876db46673c9ef65b285b5f8
 
 build:
   number: 0
