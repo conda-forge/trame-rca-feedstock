@@ -18,10 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python 3.7
+    - python {{ python_min }}
     - setuptools
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - trame-client
     - wslink
 
