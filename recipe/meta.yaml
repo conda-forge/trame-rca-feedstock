@@ -25,6 +25,7 @@ requirements:
     - trame-client
     - wslink
     - numpy
+    - packaging
     - pillow
     - pillow-avif-plugin
 
