@@ -1,5 +1,5 @@
 {% set name = "trame-rca" %}
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: de6ec477e0f900c694f762110f4080ed613f37257eab17bf71de1b966d88d021
+  sha256: 287ac897f47e949b9868e0fc23917b75110d62d934b4a0d2d17c7dfa5f6ac880
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -27,7 +27,7 @@ requirements:
     - numpy
     - packaging
     - pillow
-    - pillow-avif-plugin
+    - pyturbojpeg
 
 test:
   imports:
