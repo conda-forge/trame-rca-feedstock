@@ -1,5 +1,5 @@
 {% set name = "trame-rca" %}
-{% set version = "2.10.1" %}
+{% set version = "2.11.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: bc88f600e8fadbec467460493179dd804c914a760630eb473fc90dc32012c7ed
+  sha256: 26cc1afbce0b54187d85503162a95243a742de2046367b34109550dd43199068
 
 build:
   number: 0
